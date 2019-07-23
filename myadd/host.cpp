@@ -1,3 +1,8 @@
+/*
+    Yang.Bai
+    yb269.cornell.edu
+*/
+
 # include "vadd.h"
 
 static const int DATA_SIZE = 128;
@@ -82,5 +87,5 @@ int main(int argc, char * argv[]) {
 
     std::cout << "TEST " << (match ? "FAILED" : "PASSED") << std::endl;
     return (match ? EXIT_FAILURE : EXIT_SUCCESS);
-    
+
 }
